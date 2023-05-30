@@ -1,0 +1,9 @@
+#coding=windows-1251
+print("¬ведите строку")
+N=(input())
+N1=N[::-1]
+if N==N1:
+    print("yes")
+else:
+    print("no")
+
